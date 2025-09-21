@@ -16,13 +16,19 @@ public class Main{
 
         System.out.println(doubleNumber);
 
+        //2- narrowing casting 
+        double doublonNumber2 = 15.42;
+        int intNumber2 = (int) doublonNumber2;
+        System.out.println(intNumber2);
+
+
+
     
 
 
         User user = new User();
         user.numbers();
 
-        // System.out.println(helloo);
 
     }
 }
