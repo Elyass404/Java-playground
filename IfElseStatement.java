@@ -8,5 +8,9 @@ public class IfElseStatement {
         } else if(myAge >= votingAge){
             System.out.println("Welcome to decide the future of your Country!");
         }
+
+        //there is a shorthand for the if statement which called the tenanry operator 
+        String decide = (myAge >= votingAge ) ? "welcome to vote" : "still berhouch!";
+        System.out.print(decide);
     }
 }
