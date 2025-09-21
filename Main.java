@@ -21,6 +21,15 @@ public class Main{
         int intNumber2 = (int) doublonNumber2; // you should specify it because you are transforming from a smal to large type
         System.out.println(intNumber2);
 
+        //using concat()   //you can use more than one concat at once
+
+        String a = "hello, ";
+        String b = "this is ";
+        String c = "ME!";
+
+      //System.out.println(a.concat(b));  //result: hello, this is
+        System.out.println(a.concat(b).concat(c)); //result: hello, this is ME!
+
 
 
     
@@ -28,6 +37,9 @@ public class Main{
 
         User user = new User();
         user.numbers();
+
+        String length = "hello, this the main character";
+        System.out.println(length.length());
 
 
     }
