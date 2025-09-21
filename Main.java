@@ -12,13 +12,13 @@ public class Main{
         //type casting
         //1- wedening casting : from a smaller type to a large type
         int intNumber = 15;
-        double doubleNumber = intNumber; 
+        double doubleNumber = intNumber; // you can do the "(double) intNumber" but it is kind of automatic in java so
 
         System.out.println(doubleNumber);
 
         //2- narrowing casting 
         double doublonNumber2 = 15.42;
-        int intNumber2 = (int) doublonNumber2;
+        int intNumber2 = (int) doublonNumber2; // you should specify it because you are transforming from a smal to large type
         System.out.println(intNumber2);
 
 
