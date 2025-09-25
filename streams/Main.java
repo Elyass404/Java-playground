@@ -10,6 +10,22 @@ public class Main{
         drivers.add(new Driver("Schumacher",7,"Ferrari"));
         drivers.add(new Driver("Senna",3,"Mclaren "));
 
+        //this to sort out the elements in the list depending on the condition that we put in the sort
+        List<Driver> sortedDrivers  = drivers.stream()
+        .sorted(Comparator.comparing(driver -> driver.name))
+        .collect(Collectors.toList());
+        
+        System.out.println("-------- sorted drivers by titles --------");
+        sortedDrivers.forEach(driver -> System.out.println(driver.name));
+
+        //this to filter out the elements of the list depending on a condition that we put in the filter 
+        List<Driver> withEight = drivers.stream()
+        .filter(driver -> driver.titles == 8)
+        .collect(Collectors.toList());
+        
+        System.out.println("-------- Filtered drivers by most titles --------");
+        withEight.forEach(driver -> System.out.println(driver.name));
+        
         
     }
  
