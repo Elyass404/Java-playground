@@ -12,11 +12,12 @@ public class Main{
 
         //this to sort out the elements in the list depending on the condition that we put in the sort
         List<Driver> sortedDrivers  = drivers.stream()
-        .sorted(Comparator.comparing(driver -> driver.name))
+        .sorted(Comparator.comparing(Driver :: getName).reversed()) //you can remove the reversed method to get the ascendent order
         .collect(Collectors.toList());
         
         System.out.println("-------- sorted drivers by titles --------");
-        sortedDrivers.forEach(driver -> System.out.println(driver.name));
+        sortedDrivers.forEach(driver -> System.out.println(driver.titles));
+        // sortedDrivers.forEach(System.out::println); //this prints the location of the elements in the memrory i think
 
         //this to filter out the elements of the list depending on a condition that we put in the filter 
         List<Driver> withEight = drivers.stream()

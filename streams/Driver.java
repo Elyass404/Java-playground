@@ -9,4 +9,17 @@ public class Driver{
         this.titles =titles;
         this.team  =team;
     }
+
+    public int getTitles(){
+        return titles; 
+    }
+
+
+    public String getName(){
+        return name; 
+    }
+
+    public String getTeam(){
+        return team; 
+    }
 }
