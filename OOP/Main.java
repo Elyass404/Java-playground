@@ -30,5 +30,6 @@ public class Main {
 
         System.out.println(result); //will show 62
         System.out.println(result2); //will show 62
+
     }
 }
