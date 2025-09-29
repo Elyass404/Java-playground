@@ -11,7 +11,9 @@ public class Constructors{
 
     //How to create a constructor,
     public Constructors(int x){ // we can set how many parametres we want just like a simple method 
-        variable = x;
+        this.variable = x;
+        // variable = x; //you can also do this; the key word this is just to avoid confusion when you have the attribute has the same name with the constructor parametre
+
         System.out.println("this will be executed directly after creating an instance ");
         System.out.println("the variable has taken the number x which is :"+ variable);
 
