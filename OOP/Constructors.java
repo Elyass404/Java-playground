@@ -10,7 +10,7 @@ public class Constructors{
     int variable ;
 
     //How to create a constructor,
-    public Constructors(int x){ // we can set how many parametres we want just like a simple method 
+    public Constructors(int x){ // we can set how many parametres we want just like a simple method, these parametres are the ones we pass with the object creation like: new classNam(something, something else)
         this.variable = x;
         // variable = x; //you can also do this; the key word this is just to avoid confusion when you have the attribute has the same name with the constructor parametre
 
