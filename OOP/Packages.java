@@ -1,4 +1,4 @@
-//Packages is just a fansy name of folder or directory, it is used to organize the class,and files in genral 
+//Packages is just a fancy name of folder or directory, it is used to organize the class,and files in genral 
     // so we can put related classes with eachother in one package, and then access them if we want to use them 
 
     //the are two diffirent packages, built in packages (java APIs), which are prewritten java packages(includign helpul classes to use by us developers)
