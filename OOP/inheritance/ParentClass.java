@@ -1,5 +1,9 @@
 
-class ParentClass{ //lets pretend that this class is called vehicule, and we are creating a blueprint for a vehicule
+/*final*/class ParentClass{ 
+    
+    //NOTE: you see the final keyword  up there there, if we uncommented the "final" keywod we can not inherite this class ever
+
+    //lets pretend that this class is called vehicule, and we are creating a blueprint for a vehicule
 
     /*Inheriatnce is the concept of giving attributes and methods to other classes without recreating the same things in each class
     so, we can create a class (parent class) that has the things that other classes (sub classes) would have or share, and simply each time we create a class that 
