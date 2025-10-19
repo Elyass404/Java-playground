@@ -10,7 +10,7 @@
     has the same things the parent class has, we use the keyword "extends" and we use those 'attributes' or 'methods' without writing /defining them again
 
     NOTE: we can give the values directly to the attributes or give the body to the methods from the parent class so the subclasses can have them ready to use, or 
-    just giving the names of the attributes (without values), and just names to the methods without body(with abstract methods, we will see them later ) (just signatures), untill we inherite them in the subclasses
+    just giving the names of the attributes (without values), and just names to the methods without body(with abstract methods, check the abstract method folder ) (just signatures), untill we inherite them in the subclasses
     then we can give the values to the attributes and the bodies to the methods, or eeeeeven override them (we will see this concept later)
      */
 
