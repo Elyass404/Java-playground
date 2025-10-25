@@ -1,7 +1,7 @@
-class InterfaceImplimentation implements Interfae{
+class InterfaceImplimentation implements Interface{
 
     public String fname = "ilyass";
-    public String fname = "developer";
+    public String lname = "developer";
     public int number = 3100;
 
     public void methodOne(){
@@ -16,5 +16,14 @@ class InterfaceImplimentation implements Interfae{
         String fullName = fname +" "+ lname; 
 
         return fullName;
+    }
+
+    public static void main (String[] args){
+        InterfaceImplimentation obj = new InterfaceImplimentation();
+
+        obj.methodOne();
+        System.out.println(obj.methodTwo(obj.number));
+        System.out.println(obj.methodThree(obj.fname, obj.lname));
+
     }
 }
