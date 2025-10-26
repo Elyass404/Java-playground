@@ -14,11 +14,16 @@ class Main{
         or Types.valueOf(), and inside you put the String value you want to give the type of enum*/
 
         String userInput  = "ENUMONE";
-        Enum value = Enum.valueOf(userInput); //or if you want to insert the String directly : Enum.valueOf("ENUMONE")
+        //note: the values of the enum should always be in upper case, so if you are not sure if the input that will be inserted is an upper caseed, you should use the .toUpperCase() mehtod like done in the line below this(jsut to make sure)
+        Enum value = Enum.valueOf(userInput.toUpperCase()); //or if you want to insert the String directly : Enum.valueOf("ENUMONE")
+        
+        Enum justAnEnumValue = Enum.ENUMTHREE ;// we can access the values of the enum we created and play with it 
         
         //if the value is not presented in the enum, an error will occur, and to handle that is better to do the try and catch so that the errror got handle as wanted
         Main obj = new Main(value);
+        Main objTwo = new Main(justAnEnumValue);
 
-        System.out.println(obj.attribute);
+        System.out.println(obj.attribute); //ENUMONE
+        System.out.println(objTwo.attribute); //ENUMTHREE
     }
 }
