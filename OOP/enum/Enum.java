@@ -3,9 +3,10 @@ or give it to some attribute that should not accept any value but the ones decla
 
 //NOTE: the enum values should be in capital upercases
 
+//NOTE: you can have an enum inside a class (like you have a table, where you declare you constants)
+
 enum Enum {
 ENUMONE,
 ENUMTWO,
 ENUMTHREE
 }
-
