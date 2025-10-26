@@ -1,4 +1,4 @@
-class InterfaceImplimentation implements Interface //we can impliment other interfaces if we want  by separating the names of the intefaces with commas{
+class InterfaceImplimentation implements Interface{ //we can impliment other interfaces if we want  by separating the names of the intefaces with commas
 
     public String fname = "ilyass";
     public String lname = "developer";
