@@ -30,6 +30,10 @@ class ArrayListo{
         phones.remove(2); //it will remove the oppo from the index 2
         System.out.println(phones.get(2));// since the oppo removed now the index 2 is OnePlus (it took its place)
 
+        //To modify an element in the arraylist, you use set(), with the index you want to change and the value you want to change it with
+        phones.set(2,"Sony");
+        System.out.println(phones); // you will not find something called OnePlus anymore, just [Apple, Samsung, Sony]
+
 
         System.out.println(phoneOne);
         System.out.println(phoneTwo);
