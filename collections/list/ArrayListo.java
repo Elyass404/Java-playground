@@ -22,6 +22,11 @@ class ArrayListo{
         phones.add("Oppo");
         phones.add("OnePlus");
 
-        System.out.println(phones.get(0));
+        //To get some element from the array list, you use get(), and remember that the first starts from 0 index
+        String phoneOne = phones.get(0);
+        String phoneTwo = phones.get(1);
+
+        System.out.println(phoneOne);
+        System.out.println(phoneTwo);
     }
 }
