@@ -26,6 +26,11 @@ class ArrayListo{
         String phoneOne = phones.get(0);
         String phoneTwo = phones.get(1);
 
+        //To remove an element from an array list, you use remove(), and then give the index of the element
+        phones.remove(2); //it will remove the oppo from the index 2
+        System.out.println(phones.get(2));// since the oppo removed now the index 2 is OnePlus (it took its place)
+
+
         System.out.println(phoneOne);
         System.out.println(phoneTwo);
     }
