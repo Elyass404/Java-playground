@@ -11,13 +11,17 @@ import java.util.ArrayList; // Import the ArrayList class
 class ArrayListo{
 
 
-
     public static void main (String[] args){
 
-    ArrayList<String> arrayList = new ArrayList <String>();
+        //To create an array list you should create a new object from the array list, and define which type will you store
+        ArrayList<String> phones = new ArrayList <String>();
 
-    arrayList.add("helllo");
+        //To add elements inside that array list, you use add(), and make sure it is the same type you defined
+        phones.add("Apple");
+        phones.add("Samsung");
+        phones.add("Oppo");
+        phones.add("OnePlus");
 
-        System.out.println(arrayList.get(0));
+        System.out.println(phones.get(0));
     }
 }
