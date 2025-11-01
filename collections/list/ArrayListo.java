@@ -34,7 +34,10 @@ class ArrayListo{
         phones.set(2,"Sony");
         System.out.println(phones); // you will not find something called OnePlus anymore, just [Apple, Samsung, Sony]
 
+        //To remove all the elements in an arrayList at once, you should use clear()
+        phones.clear();
 
+        System.out.println(phones);
         System.out.println(phoneOne);
         System.out.println(phoneTwo);
     }
