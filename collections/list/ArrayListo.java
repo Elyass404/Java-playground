@@ -37,6 +37,11 @@ class ArrayListo{
         //To remove all the elements in an arrayList at once, you should use clear()
         phones.clear();
 
+        //To know the size of an array list you use the size()
+        int sizeOfArrayList = phones.size(); // now it is 0 because we used the clear method before hahaha
+        System.out.println(sizeOfArrayList);
+        
+
         System.out.println(phones);
         System.out.println(phoneOne);
         System.out.println(phoneTwo);
