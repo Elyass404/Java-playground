@@ -35,11 +35,18 @@ class ArrayListo{
         System.out.println(phones); // you will not find something called OnePlus anymore, just [Apple, Samsung, Sony]
 
         //To remove all the elements in an arrayList at once, you should use clear()
-        phones.clear();
+        // phones.clear();
 
         //To know the size of an array list you use the size()
         int sizeOfArrayList = phones.size(); // now it is 0 because we used the clear method before hahaha
         System.out.println(sizeOfArrayList);
+
+        //To loop through an array list you can use the normal for, or for each, but for each is the clean way to loop if you want to go through all the elements
+        int counter =1;
+        for(String phone : phones) {
+        System.out.println("phone number: " + counter  + " is " + phone);
+        counter ++ ;
+        }
         
 
         System.out.println(phones);
