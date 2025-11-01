@@ -1,3 +1,4 @@
+import java.util.List; // Import the List Interface
 import java.util.ArrayList; // Import the ArrayList class
 import java.util.Collections; //Import the Collections class 
 
@@ -9,12 +10,17 @@ import java.util.Collections; //Import the Collections class
 
 //NOTE: you can use methods like add(), get(), set(), and remove() to manage your list of elements.
 
+
 class ArrayListo{
 
 
     public static void main (String[] args){
 
         //To create an array list you should create a new object from the array list, and define which type will you store
+        /* NOTE: the professional way to declare any thing under the List collections , is to use the List interface as a type instead of the actuall class 
+        but here we will use ArrayList<Type> to make it clear as biginners */
+
+        // List<String> phones = new ArrayList <String>();  //this also is correct, using List<Type> as type of the attribute
         ArrayList<String> phones = new ArrayList <String>();
 
         //To add elements inside that array list, you use add(), and make sure it is the same type you defined
