@@ -1,4 +1,5 @@
 import java.util.ArrayList; // Import the ArrayList class
+import java.util.Collections; //Import the Collections class 
 
 //array list, is a class that impliments the List interface, and it play kind of the same role as the normal
 //array we kno, but there is a difference. While in normal array we can not change the size of the array, and it is quite limiting 
@@ -41,15 +42,22 @@ class ArrayListo{
         int sizeOfArrayList = phones.size(); // now it is 0 because we used the clear method before hahaha
         System.out.println(sizeOfArrayList);
 
-        //To loop through an array list you can use the normal for, or for each, but for each is the clean way to loop if you want to go through all the elements
+        //To loop through an array list you can use the normal for, or for each, here we used foreach.
         int counter =1;
         for(String phone : phones) {
         System.out.println("phone number: " + counter  + " is " + phone);
         counter ++ ;
         }
+
+        // To sort out the elements in a collection, not jsut array list, you can use the class Collection.sort 
+        //NOTE: Collections, is a class that contains many methods that can help you with the collections(list,map,set)
+        Collections.sort(phones); //phones are sorted
+        for(String phone : phones) {
+        System.out.println(phone);
+        }
         
 
-        System.out.println(phones);
+        System.out.println(phones); //will appear sorted because of the sort method in the collections class we used
         System.out.println(phoneOne);
         System.out.println(phoneTwo);
     }
