@@ -30,6 +30,9 @@ public class LinkedListoo {
         //To add an element to the first position after you already added elements in the list use addFirst
         numbers.addFirst(15);// now this is the element that will be the first one in the list
 
+        //To add an element in to the last position in the list you use the method addLast()
+        numbers.addLast(784);
+
         //
 
         System.out.println(numbers);
