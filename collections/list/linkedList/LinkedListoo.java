@@ -15,13 +15,26 @@ when it comes to playing with the data inside the collection, we will see  the a
 /* getFirst() */
 /* getLast() */
 
-Import java.util.List
-Import java.util.LinkedList
+import java.util.List;
+import java.util.LinkedList;
 
-public class LinkedListo{
+public class LinkedListoo {
 
-public static void main(){
-    
-}
+    public static void main(String [] args){
+        LinkedList<Integer> numbers = new LinkedList<Integer>();
 
+        
+        numbers.add(31); //By default this is the first element in the linked list, normal thing
+        numbers.add(152);
+
+        //To add an element to the first position after you already added elements in the list use addFirst
+        numbers.addFirst(15);// now this is the element that will be the first one in the list
+
+        //
+
+        System.out.println(numbers);
+
+
+
+    }
 }
