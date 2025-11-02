@@ -59,6 +59,9 @@ public class LinkedListoo {
         //To change an existing element in the linkedList
         numbers.set(0, 31111); //change the element with index "0" to the value "31111"
 
+        //To remove an element from a linked list 
+        numbers.remove(1); // remove the element with the index 1 
+
         //
 
         System.out.println(numbers);
