@@ -42,7 +42,10 @@ public class LinkedListoo {
         System.out.println("the last element is: " + lastElement); //784
 
         //To remove the first element of the linkedList, use the method removeFirst()
-        numbers.removeFirst(); // now the first element which is 15 is removed (15)
+        numbers.removeFirst(); // now the first element which is 15 is removed 
+
+        //To remove the last element of the linkedList, use the method removeLast()
+        numbers.removeLast(); //now the last element which is 784 is removed 
 
         System.out.println(numbers);
 
