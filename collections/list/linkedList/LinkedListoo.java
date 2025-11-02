@@ -33,7 +33,9 @@ public class LinkedListoo {
         //To add an element in to the last position in the list you use the method addLast()
         numbers.addLast(784);
 
-        //
+        //To get the first element of the list , you use the method getFirst()
+        int firstElement = numbers.getFirst();
+        System.out.println(firstElement);
 
         System.out.println(numbers);
 
