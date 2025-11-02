@@ -35,11 +35,14 @@ public class LinkedListoo {
 
         //To get the first element of the list , you use the method getFirst()
         int firstElement = numbers.getFirst();
-        System.out.println(firstElement); //15
+        System.out.println("the first element is " + firstElement); //15
 
         //To get the last element of the list, you use the method getLast();
         int lastElement = numbers.getLast();
-        System.out.println(lastElement); //784
+        System.out.println("the last element is: " + lastElement); //784
+
+        //To remove the first element of the linkedList, use the method removeFirst()
+        numbers.removeFirst(); // now the first element which is 15 is removed (15)
 
         System.out.println(numbers);
 
