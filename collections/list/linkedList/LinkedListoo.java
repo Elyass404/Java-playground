@@ -54,11 +54,12 @@ public class LinkedListoo {
 
         //To get an element in the linkedList 
         int thirdElement = numbers.get(2); 
-        System.out.println(thirdElement); // result 1533
+        System.out.println("the third element is: " + thirdElement); // result 1533
 
-        
+        //To change an existing element in the linkedList
+        numbers.set(0, 31111); //change the element with index "0" to the value "31111"
 
-
+        //
 
         System.out.println(numbers);
 
