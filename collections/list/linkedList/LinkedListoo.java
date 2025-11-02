@@ -47,6 +47,19 @@ public class LinkedListoo {
         //To remove the last element of the linkedList, use the method removeLast()
         numbers.removeLast(); //now the last element which is 784 is removed 
 
+        //The other method we saw in the array list are still usable here exactly like we saw in the array list
+
+        //To add an element to the linkedList
+        numbers.add(1533);
+
+        //To get an element in the linkedList 
+        int thirdElement = numbers.get(2); 
+        System.out.println(thirdElement); // result 1533
+
+        
+
+
+
         System.out.println(numbers);
 
 
