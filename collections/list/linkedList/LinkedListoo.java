@@ -65,6 +65,11 @@ public class LinkedListoo {
         //To remove all the elements in the linked list at once
         // uncomment this >>> // numbers.clear();
 
+        //To know the size of the linkedlist 
+        int sizeOfLinkedList = numbers.size();
+        System.out.println("the size of the linked list is: " + sizeOfLinkedList); 
+        
+
         System.out.println(numbers);
 
 
