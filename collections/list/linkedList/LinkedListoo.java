@@ -62,7 +62,8 @@ public class LinkedListoo {
         //To remove an element from a linked list 
         numbers.remove(1); // remove the element with the index 1 
 
-        //
+        //To remove all the elements in the linked list at once
+        // uncomment this >>> // numbers.clear();
 
         System.out.println(numbers);
 
