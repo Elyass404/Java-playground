@@ -70,6 +70,7 @@ public class LinkedListoo {
         System.out.println("the size of the linked list is: " + sizeOfLinkedList); 
 
         //i did nothing this day i just didnt want to break the daily progress in the github daily commits 
+        //i did nothing this day i just didnt want to break the daily progress in the github daily commits 2
         
 
         System.out.println(numbers);
