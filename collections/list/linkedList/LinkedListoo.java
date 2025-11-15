@@ -67,16 +67,7 @@ public class LinkedListoo {
 
         //To know the size of the linkedlist 
         int sizeOfLinkedList = numbers.size();
-        System.out.println("the size of the linked list is: " + sizeOfLinkedList); 
-
-        //i did nothing this day i just didnt want to break the daily progress in the github daily commits 
-        //i did nothing this day i just didnt want to break the daily progress in the github daily commits 2
-        //i did nothing this day i just didnt want to break the daily progress in the github daily commits 3
-        //i did nothing this day i just didnt want to break the daily progress in the github daily commits 4
-        //i did nothing this day i just didnt want to break the daily progress in the github daily commits 5
-        //i did nothing this day i just didnt want to break the daily progress in the github daily commits 6
-        //i did nothing this day i just didnt want to break the daily progress in the github daily commits 7
-        //i did nothing this day i just didnt want to break the daily progress in the github daily commits 8
+        System.out.println("the size of the linked list is: " + sizeOfLinkedList);
 
         
 
