@@ -68,6 +68,8 @@ public class LinkedListoo {
         //To know the size of the linkedlist 
         int sizeOfLinkedList = numbers.size();
         System.out.println("the size of the linked list is: " + sizeOfLinkedList); 
+
+        //i did nothing this day i just didnt want to break the daily progress in the github daily commits 
         
 
         System.out.println(numbers);
