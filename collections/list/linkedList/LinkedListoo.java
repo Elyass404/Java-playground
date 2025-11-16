@@ -70,6 +70,7 @@ public class LinkedListoo {
         System.out.println("the size of the linked list is: " + sizeOfLinkedList);
 
         //just a meaningless comment
+        //just a meaningless comment
 
         
 
