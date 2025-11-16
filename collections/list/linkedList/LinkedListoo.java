@@ -69,6 +69,8 @@ public class LinkedListoo {
         int sizeOfLinkedList = numbers.size();
         System.out.println("the size of the linked list is: " + sizeOfLinkedList);
 
+        //just a meaningless comment
+
         
 
         System.out.println(numbers);
