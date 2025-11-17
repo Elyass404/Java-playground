@@ -13,10 +13,12 @@ carsList.add("BYD");
 carsList.add("Audi");
 carsList.add("Lacia");
 
+//sort the elements of carsList alphabetacally 
 Collections.sort(carsList);
 
-// create a copy and sort the copy in reverse order (Collections.sort returns void)
+// in order to create another variable that takes the reversed version of the carsList 
 List<String> reversedList = new ArrayList<>(carsList);
+//then reverse the copied  list 
 Collections.sort(reversedList, Collections.reverseOrder());
 
 System.out.println(carsList);
