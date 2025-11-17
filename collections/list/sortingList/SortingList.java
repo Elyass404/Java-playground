@@ -13,6 +13,8 @@ carsList.add("BYD");
 carsList.add("Audi");
 carsList.add("Lacia");
 
+Collections.sort(carsList);
+
 System.out.println(carsList);
 
 }
