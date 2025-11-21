@@ -11,6 +11,9 @@ theSet.add("element two");
 theSet.add("element three");
 theSet.add("element four");
 
+//to check if the set is containing an element 
+System.out.println(theSet.contains("element one")); //true
+
 System.out.println(theSet);
 }
 
