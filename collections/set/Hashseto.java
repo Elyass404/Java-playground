@@ -14,6 +14,9 @@ theSet.add("element four");
 //to check if the set is containing an element 
 System.out.println(theSet.contains("element one")); //true
 
+//to remove an element from the set
+theSet.remove("element two"); //it removes the element from the set
+
 System.out.println(theSet);
 }
 
