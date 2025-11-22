@@ -17,6 +17,9 @@ System.out.println(theSet.contains("element one")); //true
 //to remove an element from the set
 theSet.remove("element two"); //it removes the element from the set
 
+int size = theSet.size();
+System.out.println(size); 
+
 System.out.println(theSet);
 }
 
