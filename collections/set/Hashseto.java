@@ -21,6 +21,8 @@ theSet.remove("element two"); //it removes the element from the set
 int size = theSet.size();
 System.out.println(size);  
 
+theSet.clear();
+
 System.out.println(theSet);
 }
 
