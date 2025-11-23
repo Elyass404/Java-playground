@@ -25,6 +25,7 @@ System.out.println(size);
 //theSet.clear(); // uncomment this line in order to execute the method
 
 //just a comment
+//just a comment
 
 System.out.println(theSet);
 }
