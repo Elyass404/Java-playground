@@ -22,12 +22,7 @@ int size = theSet.size();
 System.out.println(size);  
 
 //to remove all the elements from the set at once,
-//theSet.clear(); // uncomment this line in order to execute the method
-
-//just a comment
-//just a comment       
-//just a comment        
-//just a comment        
+//theSet.clear(); // uncomment this line in order to execute the method     
 
 System.out.println(theSet);
 }
