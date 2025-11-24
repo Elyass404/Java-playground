@@ -1,9 +1,11 @@
 import java.util.HashSet; //import the hashset
+import java.util.Set; //import the Set interface
 
 public class Hashseto{
 
 public static void main (String[] args){
 
+//Set<String> theSet = new HashSet<>(); // We can also use the set inteface , which is the prefered one , uncomment this line and comment the one bellow
 HashSet<String> theSet = new HashSet<String>();
 
 theSet.add("element one");
