@@ -24,8 +24,12 @@ System.out.println(size);
 //to remove all the elements from the set at once,
 //theSet.clear(); // uncomment this line in order to execute the method     
 
+//to loop through a hasshset
+for (String element : theSet ){
+    System.out.println (element);
+}
 
-//just another comment
+
 System.out.println(theSet);
 }
 
