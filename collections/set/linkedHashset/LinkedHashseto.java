@@ -13,6 +13,7 @@ public class LinkedHashseto{
 
         hashSet.add("element one");
         hashSet.add("element two");
+        hashSet.add("element two point five");
         hashSet.add("element three");
         //we inserted a ducplicated element in the hashset collection 
         hashSet.add("element three"); //this element will not be inserted and will not be shown if we tried to print the collection
@@ -22,5 +23,9 @@ public class LinkedHashseto{
 
         //in order to verify if something (element) exist in the collection, we use .contains
         System.out.println(hashSet.contains("element one")); // Result : true
+
+        //to remove an element in the linked hash set, we use the .remove method
+        hashSet.remove("element two point five"); // this should remove the element two point five
+        System.out.println(hashSet); //lets verify
     }
 }
