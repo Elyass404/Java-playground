@@ -14,8 +14,13 @@ public class LinkedHashseto{
         hashSet.add("element one");
         hashSet.add("element two");
         hashSet.add("element three");
-        hashSet.add("element three"); //we inserted a ducplicated element in the hashset collection 
-
+        //we inserted a ducplicated element in the hashset collection 
+        hashSet.add("element three"); //this element will not be inserted and will not be shown if we tried to print the collection
+        
+        //show(print) the collection(linkedHashSet)
         System.out.println(hashSet);
+
+        //in order to verify if something (element) exist in the collection, we use .contains
+        System.out.println(hashSet.contains("element one")); // Result : true
     }
 }
