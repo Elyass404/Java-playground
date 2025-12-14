@@ -1,6 +1,8 @@
 //for the LinkedHashset it is a collection that stores Unique elements (so without repeatition) and also
 //remembers the order that the elements entered into the the list, without doing automatic sorting
 
+//Small tip: Use HashSet when you only care about uniqueness and speed. Use LinkedHashSet when order matters.
+
 
 import java.util.LinkedHashSet;
 import java.util.Set;
