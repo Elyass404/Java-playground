@@ -27,5 +27,11 @@ public class LinkedHashseto{
         //to remove an element in the linked hash set, we use the .remove method
         hashSet.remove("element two point five"); // this should remove the element two point five
         System.out.println(hashSet); //lets verify
+
+        //to remove all the elemnents from the collection, we should use .clear() method
+        //hashSet.clear();//Uncomment this line to see the result
+        System.out.println(hashSet); //lets verify
+
+        //to know the size of the coll
     }
 }
