@@ -9,7 +9,10 @@ public class LinkedHashseto{
 
     public static void main (String[] args){
 
-        Set<String> hashSet = new LinkedHashSet<>();
+        //you can use this way if you want:
+        //LinkedHashSet<Type you want: String ...>  nameOfList = new LinkedHashSet<Type>(); 
+
+        Set<String> hashSet = new LinkedHashSet<>(); // i prefer this way 
 
         hashSet.add("element one");
         hashSet.add("element two");
@@ -28,10 +31,17 @@ public class LinkedHashseto{
         hashSet.remove("element two point five"); // this should remove the element two point five
         System.out.println(hashSet); //lets verify
 
-        //to remove all the elemnents from the collection, we should use .clear() method
+        //to remove all the elemnents from the collection at once, we should use .clear() method
         //hashSet.clear();//Uncomment this line to see the result
         System.out.println(hashSet); //lets verify
 
-        //to know the size of the coll
+        //to know the size of the collection, we use the method .size()
+        System.out.println(hashSet.size()); 
+
+        //to loop through a LinkedHashSet: 
+        for (String element : hashSet) {
+        System.out.println(element); //we print each element individually
+        }
+
     }
 }
