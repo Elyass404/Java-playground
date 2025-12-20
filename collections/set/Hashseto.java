@@ -27,6 +27,7 @@ System.out.println(size);
 //theSet.clear(); // uncomment this line in order to execute the method     
 
 //just a comment
+//just a comment
 
 //to loop through a hasshset
 for (String element : theSet ){
