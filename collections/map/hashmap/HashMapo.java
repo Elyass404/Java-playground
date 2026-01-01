@@ -19,14 +19,18 @@ String keys and String values
 
 public class HashMapo {
 
-
   public static void main(String[] args) {
     
     HashMap<String, String> theMap = new HashMap<String, String>();
 
+      //we put element to the map by the method put()
       theMap.put("fruitOne", "Apple");
       theMap.put("fruitTwo", "Banana");
       theMap.put("fruitThree", "Cherry");
+
+      //if we want to get elements from the map, we use the method get(), here we call the key not the index like List & Set
+
+      System.out.println(theMap.get("fruiteTwo")); //Banana
 
       System.out.println(theMap);
   
