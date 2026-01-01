@@ -29,8 +29,10 @@ public class HashMapo {
       theMap.put("fruitThree", "Cherry");
 
       //if we want to get elements from the map, we use the method get(), here we call the key not the index like List & Set
-
       System.out.println(theMap.get("fruiteTwo")); //Banana
+
+      //to remove an element from the map, we use the method remove(), and here also we use the keys not the indexes
+      theMap.remove("fruitOne"); //the value "Apple" will be removed
 
       System.out.println(theMap);
   
