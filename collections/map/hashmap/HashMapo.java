@@ -1,6 +1,7 @@
 package collections.map.hashmap;
 
 import java.util.HashMap;
+import java.util.Map;
 
 //A HashMap stores items in key/value pairs, where each key maps to a specific value.
 /*
@@ -21,7 +22,12 @@ public class HashMapo {
 
   public static void main(String[] args) {
     
+    //we can use another way to declare a HashMap
+    //Map<String, String> theMapOne = new HashMap<>(); //uncomment this line to see the effect
+
+
     HashMap<String, String> theMap = new HashMap<String, String>();
+
 
       //we put element to the map by the method put()
       theMap.put("fruitOne", "Apple");
@@ -48,6 +54,9 @@ public class HashMapo {
       System.out.println("key number" + counter + ":" + key + ", value: " + theMap.get(key));
       counter ++;
     }
+
+
+
 
       System.out.println(theMap);
   
