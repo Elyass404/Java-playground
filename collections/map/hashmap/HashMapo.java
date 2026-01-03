@@ -34,10 +34,17 @@ public class HashMapo {
       //to remove an element from the map, we use the method remove(), and here also we use the keys not the indexes
       theMap.remove("fruitOne"); //the value "Apple" will be removed
 
-      //to remove all the elements from the map, we use the method clear()
+      //to remove all the elements from the map at once, we use the method clear()
       //theMap.clear(); //uncomnment this line to see the effect
 
+      //in order to know the size of the map, we use the method size()
+      Integer size = theMap.size();
+      System.out.println(size); 
+
       
+
+
+
 
       System.out.println(theMap);
   
