@@ -41,10 +41,13 @@ public class HashMapo {
       Integer size = theMap.size();
       System.out.println(size); 
 
-      
-
-
-
+      //to loop through the map, we can use the for each loop 
+    int counter = 0;
+    for(String key: theMap.keySet()) {
+    
+      System.out.println("key number" + counter + ":" + key + ", value: " + theMap.get(key));
+      counter ++;
+    }
 
       System.out.println(theMap);
   
