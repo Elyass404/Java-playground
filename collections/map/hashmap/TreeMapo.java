@@ -27,6 +27,11 @@ public class TreeMapo {
     //to remove all the elements from the tree map collection, we use the clear() method
     //treeMap.clear(); //uncomment this line to see the effect
 
+    //to get the size of a tree map collectio we can use the size() method
+
+    int size = treeMap.size();
+    System.out.println("the size fo the treeMap is : " + size);
+
     
 
 
