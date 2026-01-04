@@ -24,7 +24,12 @@ public class TreeMapo {
     //to remove an element from the treeMap, we use the remove method with the name of the key
     treeMap.remove("cartwo");
 
+    //to remove all the elements from the tree map collection, we use the clear() method
+    //treeMap.clear(); //uncomment this line to see the effect
+
     
+
+
 
     System.out.println(treeMap);
 
