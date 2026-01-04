@@ -21,6 +21,11 @@ public class TreeMapo {
     //to get an elemement from the treeMap collection we use the method get(), with the name of the key not the index
     System.out.println(treeMap.get("carThree"));
 
+    //to remove an element from the treeMap, we use the remove method with the name of the key
+    treeMap.remove("cartwo");
+
+    
+
     System.out.println(treeMap);
 
   }
