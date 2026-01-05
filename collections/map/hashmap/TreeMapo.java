@@ -32,8 +32,6 @@ public class TreeMapo {
     int size = treeMap.size();
     System.out.println("the size fo the treeMap is : " + size);
 
-    // just a comment
-    // just a comment
 
 
 
