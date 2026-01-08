@@ -28,12 +28,16 @@ public class TreeMapo {
     //treeMap.clear(); //uncomment this line to see the effect
 
     //to get the size of a tree map collectio we can use the size() method
-
     int size = treeMap.size();
     System.out.println("the size fo the treeMap is : " + size);
 
+    //to loop through a treeMap using the forEach loop 
 
+    for(String element : treeMap.keySet()){
+      System.out.println(element);
+    }
 
+    
 
     System.out.println(treeMap);
 
