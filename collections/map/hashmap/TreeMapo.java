@@ -34,10 +34,16 @@ public class TreeMapo {
     //to loop through a treeMap using the forEach loop 
 
     for(String element : treeMap.keySet()){
-      System.out.println(element);
+      System.out.println(element); 
+      
+      //if we want to print even the key and the values
+      for( String elmnt : treeMap.keySet()){
+
+        System.out.println("the key: "+ elmnt + " value: "+ treeMap.get(elmnt));
+      }
     }
 
-    
+
 
     System.out.println(treeMap);
 
