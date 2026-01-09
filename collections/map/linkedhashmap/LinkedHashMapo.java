@@ -17,6 +17,12 @@ public class LinkedHashMapo {
     System.out.println(carTypes.get("carOne"));
 
 
+    //to remove an element from the linked hashmap, we use the remove() method, with the key as the parametre
+    carTypes.remove("carThree");
+
+    //
+
+
 
   }
   
