@@ -12,7 +12,12 @@ public class LinkedHashMapo {
     carTypes.put("carTwo", "Sedan");
     carTypes.put("carThree", "Coupe");
 
-    
+
+    //to get an element from the linked hashmap, we use the get(key) method
+    System.out.println(carTypes.get("carOne"));
+
+
+
   }
   
 }
