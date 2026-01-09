@@ -1,4 +1,4 @@
-package collections.map.hashmap;
+package collections.map.treemap;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -42,8 +42,6 @@ public class TreeMapo {
         System.out.println("the key: "+ elmnt + " value: "+ treeMap.get(elmnt));
       }
     }
-
-    //commnet
 
 
     System.out.println(treeMap);
