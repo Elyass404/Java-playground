@@ -20,7 +20,8 @@ public class LinkedHashMapo {
     //to remove an element from the linked hashmap, we use the remove() method, with the key as the parametre
     carTypes.remove("carThree");
 
-    //
+    //to remove all elements at once, we use the method clear()
+    //carTypes.clear(); // uncomment this line to see the effect
 
 
 
