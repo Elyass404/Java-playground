@@ -26,7 +26,10 @@ public class LinkedHashMapo {
     //to know the size of a linked hash map  we use the size() method
     System.out.println(carTypes.size());
 
-    
+    //to loop through the linked hashmap, we can use the foreach loop 
+    for(String type : carTypes.keySet()){
+      System.out.println(carTypes.get(type));
+    }
 
 
 
