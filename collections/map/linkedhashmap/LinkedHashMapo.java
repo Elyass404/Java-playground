@@ -31,6 +31,13 @@ public class LinkedHashMapo {
       System.out.println(carTypes.get(type));
     }
 
+    //to loop through the linkedhashmap but to show both the keys and values 
+
+    for(String type: carTypes.keySet()){
+      System.out.println("key: "+ type + "value: "+ carTypes.get(type));
+      
+    }
+
 
 
   }
