@@ -22,6 +22,11 @@ public class LinkedHashMapo {
 
     //to remove all elements at once, we use the method clear()
     //carTypes.clear(); // uncomment this line to see the effect
+    
+    //to know the size of a linked hash map  we use the size() method
+    System.out.println(carTypes.size());
+
+    
 
 
 
