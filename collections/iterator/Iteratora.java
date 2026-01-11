@@ -20,7 +20,12 @@ class Iteratora {
 
     Iterator<String> it = drinks.iterator();
 
+    //to print the first element of the list collection
     System.out.println(it.next());
+
+    while (it.hasNext()) {
+      System.out.println("still have element");
+    }
 
   }
 }
