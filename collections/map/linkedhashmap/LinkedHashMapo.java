@@ -35,7 +35,8 @@ public class LinkedHashMapo {
 
     for(String type: carTypes.keySet()){
       System.out.println("key: "+ type + "value: "+ carTypes.get(type));
-      
+
+
     }
 
 
