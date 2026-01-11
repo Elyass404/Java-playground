@@ -18,6 +18,7 @@ class Iteratora {
     drinks.add("coffee");
     drinks.add("soda");
 
+    //this how we create the iterator, the type is depending on the list elements type
     Iterator<String> it = drinks.iterator();
 
     //to print the first element of the list collection
