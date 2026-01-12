@@ -1,8 +1,6 @@
 package collections.algorithms;
 
-import java.util.ArrayList;
 import java.util.*;
-import java.util.List;
 
 public class Algos {
   
@@ -38,6 +36,10 @@ public class Algos {
     //now and as we saw before, to sort a collection, we can use sort() method, this time we will use it with the numbers list
     Collections.sort(numbers);
     System.out.println(numbers); //will be sorted from min to max (even with string , from A to Z)
+
+    //NOTE: we can also reverse the sorting by using the Collections.reverseOrder() inside the sort() method
+    Collections.sort(cars, Collections.reverseOrder());
+    System.out.println(cars); //[Mercedes, Maseratti, Ford, Dacia the lengend, BMW]
     
 
 
