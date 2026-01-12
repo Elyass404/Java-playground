@@ -35,7 +35,10 @@ public class Algos {
     String myCar = cars.get(Collections.binarySearch(cars, "Mercedes")); // here the binary search get the index of the element we are looking for that is why i used it inside the get method
     System.out.println("my dream car is: "+ myCar);
 
-    //
+    //now and as we saw before, to sort a collection, we can use sort() method, this time we will use it with the numbers list
+    Collections.sort(numbers);
+    System.out.println(numbers); //will be sorted from min to max (even with string , from A to Z)
+    
 
 
 
