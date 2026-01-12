@@ -1,0 +1,2 @@
+Algorithms in general are predures that help us to solve problems, and here in collections, java provides us with many algotithms that
+help us to manipulate and play with data so we can achieve certain things and make the program work as we wish
