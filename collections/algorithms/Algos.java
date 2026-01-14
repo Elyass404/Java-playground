@@ -40,6 +40,8 @@ public class Algos {
     //NOTE: we can also reverse the sorting by using the Collections.reverseOrder() inside the sort() method
     Collections.sort(cars, Collections.reverseOrder());
     System.out.println(cars); //[Mercedes, Maseratti, Ford, Dacia the lengend, BMW]
+
+    //comment
     
 
 
