@@ -42,6 +42,7 @@ public class Algos {
     System.out.println(cars); //[Mercedes, Maseratti, Ford, Dacia the lengend, BMW]
 
     //comment
+    //comment
     
 
 
