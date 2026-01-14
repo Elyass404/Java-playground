@@ -41,12 +41,5 @@ public class Algos {
     Collections.sort(cars, Collections.reverseOrder());
     System.out.println(cars); //[Mercedes, Maseratti, Ford, Dacia the lengend, BMW]
 
-    //comment
-    //comment
-    
-
-
-
-
   }
 }
