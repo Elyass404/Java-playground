@@ -47,5 +47,11 @@ public class Algos {
       System.out.println(c);
     }
 
+    //2. using the iterator interface 
+    Iterator<String> itera = cars.iterator();
+    while(itera.hasNext()){
+      System.out.println(itera.next());
+    }
+
   }
 }
