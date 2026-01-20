@@ -53,5 +53,11 @@ public class Algos {
       System.out.println(itera.next());
     }
 
+    //to find the max or the min of a certain collection we can use Collections.min() and Collection.max
+    int theMinOfNumbers = Collections.min(numbers);
+    int theMaxOfNumbers = Collections.max(numbers);
+
+    System.out.println("The minimum of numbers is : " + theMinOfNumbers + " And the max of the numbers: " + theMaxOfNumbers );
+    
   }
 }
