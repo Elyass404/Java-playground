@@ -41,5 +41,11 @@ public class Algos {
     Collections.sort(cars, Collections.reverseOrder());
     System.out.println(cars); //[Mercedes, Maseratti, Ford, Dacia the lengend, BMW]
 
+    //looping through a list or collection can be done using the the foreach loop or the iterator interface we saw before
+    //1. using the foreach 
+    for(String c : cars){
+      System.out.println(c);
+    }
+
   }
 }
