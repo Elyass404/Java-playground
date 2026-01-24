@@ -70,6 +70,8 @@ public class Algos {
     int timeOfMercedes = Collections.frequency(cars, "Mercedes");
     System.out.println(timeOfMercedes);
 
-    
+    //to swap places of elements inside a collection
+    Collections.swap(cars, 1, 0); // swat the element with index 1 , with the element witht the index 0
+
   }
 }
