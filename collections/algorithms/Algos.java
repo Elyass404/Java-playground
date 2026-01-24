@@ -58,6 +58,12 @@ public class Algos {
     int theMaxOfNumbers = Collections.max(numbers);
 
     System.out.println("The minimum of numbers is : " + theMinOfNumbers + " And the max of the numbers: " + theMaxOfNumbers );
-    
+
+    //to shuffle the elements randomly inside the collection 
+    Collections.shuffle(cars);
+    System.out.println(cars);
+    //now they will be shuffled in another way 
+    Collections.shuffle(cars);
+    System.out.println(cars);
   }
 }
