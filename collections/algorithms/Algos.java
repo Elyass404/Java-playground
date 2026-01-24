@@ -65,5 +65,11 @@ public class Algos {
     //now they will be shuffled in another way 
     Collections.shuffle(cars);
     System.out.println(cars);
+
+    //to cound how many times did an element inside a collection has repeated, we use Collection.frequency()
+    int timeOfMercedes = Collections.frequency(cars, "Mercedes");
+    System.out.println(timeOfMercedes);
+
+    
   }
 }
