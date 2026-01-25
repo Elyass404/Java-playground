@@ -13,5 +13,9 @@ public class WrapperClasses {
     System.out.println(number);
     System.out.println(doubleNumber);
     System.out.println(charac);
+    System.out.println(longNumber);
+    System.out.println(floatNumber);
+
+
   }
 }
