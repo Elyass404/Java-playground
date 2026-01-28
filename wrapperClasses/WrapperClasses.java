@@ -16,9 +16,6 @@ public class WrapperClasses {
     System.out.println(longNumber);
     System.out.println(floatNumber);
 
-    //comment
-    //comment
-
 
   }
 }
