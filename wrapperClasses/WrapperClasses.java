@@ -16,6 +16,10 @@ public class WrapperClasses {
     System.out.println(longNumber);
     System.out.println(floatNumber);
 
+    //since we are using object instead of normal variables, now we can access to methods that will help us during our pragramming
+
+    System.out.println(number.intValue());//to transfor the object to an int 
+
 
   }
 }
