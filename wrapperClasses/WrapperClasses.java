@@ -24,7 +24,9 @@ public class WrapperClasses {
     System.out.println(number.doubleValue());//to give the double value of the object 
     System.out.println(floatNumber.byteValue()); // to give the byte value of the object
     System.out.println(number.toString()); //to transform the object to a string and manipulate it like it is a string from the start
-    
+    System.out.println(String.valueOf("nbvcvb")); // to know the value of the sobject after parsing it into a string
+    System.out.println(Integer.valueOf("")); // to know th value of a number or a string number
+    System.out.println(Integer.valueOf("1111", 8)); // here is the same, but the base (number system) you want to interpret the string in. 2 binary / 8 octa/ hexa etc..
 
   }
 }
