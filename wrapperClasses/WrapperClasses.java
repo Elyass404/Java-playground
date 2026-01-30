@@ -18,9 +18,10 @@ public class WrapperClasses {
 
     //since we are using object instead of normal variables, now we can access to methods that will help us during our pragramming
 
-    System.out.println(number.intValue());//to transfor the object to an int 
-    System.out.println(number.doubleValue());//to transform the int to a double 
-    System.out.println(floatNumber.byteValue()); // to transform the object to a byte value
+    System.out.println(number.intValue());//to give the int value of the object 
+    System.out.println(number.doubleValue());//to give the double value of the object 
+    System.out.println(floatNumber.byteValue()); // to give the byte value of the object
+    System.out.println(number.toString()); //to transform the object to a string and manipulate it like it is a string from the start
 
 
   }
