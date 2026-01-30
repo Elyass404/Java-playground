@@ -20,6 +20,7 @@ public class WrapperClasses {
 
     System.out.println(number.intValue());//to transfor the object to an int 
     System.out.println(number.doubleValue());//to transform the int to a double 
+    System.out.println(floatNumber.byteValue()); // to transform the object to a byte value
 
 
   }
