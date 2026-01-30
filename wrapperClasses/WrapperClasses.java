@@ -5,11 +5,13 @@ public class WrapperClasses {
   
   public static void main(String[] args) {
     // here are the different wrapper classes 
+    String str = "hello";
     Integer number =  15;
     Long longNumber= 112L;
     Double doubleNumber = 12.25;
     Float floatNumber = 1.21f ; 
     Character charac = 'A';
+    System.out.println(str);
     System.out.println(number);
     System.out.println(doubleNumber);
     System.out.println(charac);
@@ -22,7 +24,7 @@ public class WrapperClasses {
     System.out.println(number.doubleValue());//to give the double value of the object 
     System.out.println(floatNumber.byteValue()); // to give the byte value of the object
     System.out.println(number.toString()); //to transform the object to a string and manipulate it like it is a string from the start
-
+    
 
   }
 }
