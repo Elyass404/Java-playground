@@ -19,6 +19,7 @@ public class WrapperClasses {
     //since we are using object instead of normal variables, now we can access to methods that will help us during our pragramming
 
     System.out.println(number.intValue());//to transfor the object to an int 
+    System.out.println(number.doubleValue());//to transform the int to a double 
 
 
   }
