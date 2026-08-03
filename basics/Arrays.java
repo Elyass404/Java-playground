@@ -4,6 +4,8 @@ public class Arrays{
         int [] clockNums = {1,2,3,4,5,6,7,9,10,11,12}; // simply making an int array 
         String [] carTypes = new String[5] ; //to specify the amount of elements that array can hold
 
+
+        //just a test teaching the git commands
         System.out.println(musicTypes[2]);
 
         //to change the value of an element in an array
